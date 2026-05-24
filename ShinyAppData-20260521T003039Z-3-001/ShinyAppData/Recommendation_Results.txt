@@ -1,0 +1,1230 @@
+============================================================
+Full Colour (Mayer's) | n = 25004
+============================================================
+EfficientNet-B0 — Test Accuracy: 0.653  |  MCC: 0.538
+============================================================
+LR: 0.000260
+Best val acc: 0.6863
+Total epochs: 9
+Best checkpoint: ~3-4 epochs
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              726              160               37               70
+Truth DCIS1                  15             1024                7               89
+Truth CD8                    49              110              533              262
+Truth Macrophage              128              185              285              347
+
+Per-class accuracy:
+  Invasive: 0.731
+  DCIS1: 0.902
+  CD8: 0.559
+  Macrophage: 0.367
+              precision    recall  f1-score   support
+
+    Invasive       0.79      0.73      0.76       993
+       DCIS1       0.69      0.90      0.78      1135
+         CD8       0.62      0.56      0.59       954
+  Macrophage       0.45      0.37      0.41       945
+
+    accuracy                           0.65      4027
+   macro avg       0.64      0.64      0.63      4027
+weighted avg       0.64      0.65      0.64      4027
+
+
+============================================================
+Full Colour (Mayer's) | n = 18000
+============================================================
+EfficientNet-B0 — Test Accuracy: 0.662  |  MCC: 0.550
+============================================================
+LR: 0.000031
+Best val acc: 0.6894
+Total epochs: 26
+Best checkpoint: ~13-15 epochs
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              547               81               15               65
+Truth DCIS1                   9              749                5               52
+Truth CD8                    35               86              408              167
+Truth Macrophage              108              121              236              214
+
+Per-class accuracy:
+  Invasive: 0.773
+  DCIS1: 0.919
+  CD8: 0.586
+  Macrophage: 0.315
+              precision    recall  f1-score   support
+
+    Invasive       0.78      0.77      0.78       708
+       DCIS1       0.72      0.92      0.81       815
+         CD8       0.61      0.59      0.60       696
+  Macrophage       0.43      0.32      0.36       679
+
+    accuracy                           0.66      2898
+   macro avg       0.64      0.65      0.64      2898
+weighted avg       0.64      0.66      0.65      2898
+
+
+============================================================
+Full Colour (Mayer's) | n = 12500
+============================================================
+EfficientNet-B0 — Test Accuracy: 0.649  |  MCC: 0.533
+============================================================
+LR: 0.000058
+Best val acc: 0.6927
+Total epochs: 20
+Best checkpoint: ~10-12 epochs
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              372               71               17               32
+Truth DCIS1                   8              516                1               41
+Truth CD8                    21               65              266              131
+Truth Macrophage               66               87              166              153
+
+Per-class accuracy:
+  Invasive: 0.756
+  DCIS1: 0.912
+  CD8: 0.551
+  Macrophage: 0.324
+              precision    recall  f1-score   support
+
+    Invasive       0.80      0.76      0.78       492
+       DCIS1       0.70      0.91      0.79       566
+         CD8       0.59      0.55      0.57       483
+  Macrophage       0.43      0.32      0.37       472
+
+    accuracy                           0.65      2013
+   macro avg       0.63      0.64      0.63      2013
+weighted avg       0.63      0.65      0.64      2013
+
+
+============================================================
+Full Colour (Mayer's) | n = 7500
+============================================================
+EfficientNet-B0 — Test Accuracy: 0.656  |  MCC: 0.542
+============================================================
+LR: 0.000157
+Best val acc: 0.6955
+Total epochs: 14
+Best checkpoint: ~6-7 epochs
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              228               31                9               27
+Truth DCIS1                   6              309                0               25
+Truth CD8                    18               36              159               77
+Truth Macrophage               40               50               96               97
+
+Per-class accuracy:
+  Invasive: 0.773
+  DCIS1: 0.909
+  CD8: 0.548
+  Macrophage: 0.343
+              precision    recall  f1-score   support
+
+    Invasive       0.78      0.77      0.78       295
+       DCIS1       0.73      0.91      0.81       340
+         CD8       0.60      0.55      0.57       290
+  Macrophage       0.43      0.34      0.38       283
+
+    accuracy                           0.66      1208
+   macro avg       0.63      0.64      0.63      1208
+weighted avg       0.64      0.66      0.64      1208
+
+
+============================================================
+Full Colour (Mayer's) | n = 2500
+============================================================
+EfficientNet-B0 — Test Accuracy: 0.624  |  MCC: 0.501
+============================================================
+LR: 0.000135
+Best val acc: 0.6376
+Total epochs: 21
+Best checkpoint: ~15-17 epochs
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive               58               24                5               11
+Truth DCIS1                   4              105                0                4
+Truth CD8                     3               11               50               33
+Truth Macrophage               21               18               17               38
+
+Per-class accuracy:
+  Invasive: 0.592
+  DCIS1: 0.929
+  CD8: 0.515
+  Macrophage: 0.404
+              precision    recall  f1-score   support
+
+    Invasive       0.67      0.59      0.63        98
+       DCIS1       0.66      0.93      0.77       113
+         CD8       0.69      0.52      0.59        97
+  Macrophage       0.44      0.40      0.42        94
+
+    accuracy                           0.62       402
+   macro avg       0.62      0.61      0.60       402
+weighted avg       0.62      0.62      0.61       402
+
+
+============================================================
+Full Colour (Mayer's) | n = 500
+============================================================
+DenseNet121 — Test Accuracy: 0.568  |  MCC: 0.432
+============================================================
+LR: 0.000095
+Best val acc: 0.5479
+Total epochs: 30
+Best checkpoint: ~27-30 epochs
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive               13                2                0                5
+Truth DCIS1                   5               14                2                2
+Truth CD8                     3                1                7                8
+Truth Macrophage                4                1                2               12
+
+Per-class accuracy:
+  Invasive: 0.650
+  DCIS1: 0.609
+  CD8: 0.368
+  Macrophage: 0.632
+              precision    recall  f1-score   support
+
+    Invasive       0.52      0.65      0.58        20
+       DCIS1       0.78      0.61      0.68        23
+         CD8       0.64      0.37      0.47        19
+  Macrophage       0.44      0.63      0.52        19
+
+    accuracy                           0.57        81
+   macro avg       0.59      0.56      0.56        81
+weighted avg       0.60      0.57      0.57        81
+
+
+============================================================
+Full Colour (Harris) | n = 25004
+============================================================
+DenseNet121 — Test Accuracy: 0.656  |  MCC: 0.541
+============================================================
+LR: 0.000028
+Best val acc: 0.6718
+Total epochs: 18
+Best checkpoint: ~7-8 epochs
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              788               97               24               84
+Truth DCIS1                  43              998               22               72
+Truth CD8                    67               99              553              235
+Truth Macrophage              166              146              332              301
+
+Per-class accuracy:
+  Invasive: 0.794
+  DCIS1: 0.879
+  CD8: 0.580
+  Macrophage: 0.319
+              precision    recall  f1-score   support
+
+    Invasive       0.74      0.79      0.77       993
+       DCIS1       0.74      0.88      0.81      1135
+         CD8       0.59      0.58      0.59       954
+  Macrophage       0.43      0.32      0.37       945
+
+    accuracy                           0.66      4027
+   macro avg       0.63      0.64      0.63      4027
+weighted avg       0.64      0.66      0.64      4027
+
+
+============================================================
+Full Colour (Harris) | n = 18000
+============================================================
+EfficientNet-B0 — Test Accuracy: 0.649  |  MCC: 0.533
+============================================================
+LR: 0.000093
+Best val acc: 0.6723
+Total epochs: 13
+Best checkpoint: ~6-7 epochs
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              531               94               19               64
+Truth DCIS1                  16              738                9               52
+Truth CD8                    40               74              419              163
+Truth Macrophage              110              119              257              193
+
+Per-class accuracy:
+  Invasive: 0.750
+  DCIS1: 0.906
+  CD8: 0.602
+  Macrophage: 0.284
+              precision    recall  f1-score   support
+
+    Invasive       0.76      0.75      0.76       708
+       DCIS1       0.72      0.91      0.80       815
+         CD8       0.60      0.60      0.60       696
+  Macrophage       0.41      0.28      0.34       679
+
+    accuracy                           0.65      2898
+   macro avg       0.62      0.64      0.62      2898
+weighted avg       0.63      0.65      0.63      2898
+
+
+============================================================
+Full Colour (Harris) | n = 12500
+============================================================
+DenseNet121 — Test Accuracy: 0.607  |  MCC: 0.475
+============================================================
+LR: 0.000073
+Best val acc: 0.6403
+Total epochs: 9
+Best checkpoint: ~4-5 epochs
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              310               82               20               80
+Truth DCIS1                  26              473               12               55
+Truth CD8                    29               56              273              125
+Truth Macrophage               54               75              177              166
+
+Per-class accuracy:
+  Invasive: 0.630
+  DCIS1: 0.836
+  CD8: 0.565
+  Macrophage: 0.352
+              precision    recall  f1-score   support
+
+    Invasive       0.74      0.63      0.68       492
+       DCIS1       0.69      0.84      0.76       566
+         CD8       0.57      0.57      0.57       483
+  Macrophage       0.39      0.35      0.37       472
+
+    accuracy                           0.61      2013
+   macro avg       0.60      0.60      0.59      2013
+weighted avg       0.60      0.61      0.60      2013
+
+
+============================================================
+Full Colour (Harris) | n = 7500
+============================================================
+DenseNet121 — Test Accuracy: 0.639  |  MCC: 0.519
+============================================================
+LR: 0.000018
+Best val acc: 0.6391
+Total epochs: 30
+Best checkpoint: ~18-22 epochs
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              227               31                6               31
+Truth DCIS1                  23              290                8               19
+Truth CD8                    28               25              168               69
+Truth Macrophage               42               44              110               87
+
+Per-class accuracy:
+  Invasive: 0.769
+  DCIS1: 0.853
+  CD8: 0.579
+  Macrophage: 0.307
+              precision    recall  f1-score   support
+
+    Invasive       0.71      0.77      0.74       295
+       DCIS1       0.74      0.85      0.79       340
+         CD8       0.58      0.58      0.58       290
+  Macrophage       0.42      0.31      0.36       283
+
+    accuracy                           0.64      1208
+   macro avg       0.61      0.63      0.62      1208
+weighted avg       0.62      0.64      0.63      1208
+
+
+============================================================
+Full Colour (Harris) | n = 2500
+============================================================
+DenseNet121 — Test Accuracy: 0.624  |  MCC: 0.498
+============================================================
+LR: 0.000057
+Best val acc: 0.6649
+Total epochs: 21
+Best checkpoint: ~13-15 epochs
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive               63               13                7               15
+Truth DCIS1                   9               94                2                8
+Truth CD8                     4               10               61               22
+Truth Macrophage               21               16               24               33
+
+Per-class accuracy:
+  Invasive: 0.643
+  DCIS1: 0.832
+  CD8: 0.629
+  Macrophage: 0.351
+              precision    recall  f1-score   support
+
+    Invasive       0.65      0.64      0.65        98
+       DCIS1       0.71      0.83      0.76       113
+         CD8       0.65      0.63      0.64        97
+  Macrophage       0.42      0.35      0.38        94
+
+    accuracy                           0.62       402
+   macro avg       0.61      0.61      0.61       402
+weighted avg       0.61      0.62      0.62       402
+
+
+============================================================
+Full Colour (Harris) | n = 500
+============================================================
+SVM (HOG) — Test Accuracy: 0.358  |  MCC: 0.148
+============================================================
+Best params : C=10, gamma=0.1, kernel=rbf
+Best CV acc: 0.2805
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive                7                2                7                4
+Truth DCIS1                   8                6                5                4
+Truth CD8                     4                5                8                2
+Truth Macrophage                2                3                6                8
+
+Per-class accuracy:
+  Invasive: 0.350
+  DCIS1: 0.261
+  CD8: 0.421
+  Macrophage: 0.421
+              precision    recall  f1-score   support
+
+    Invasive       0.33      0.35      0.34        20
+       DCIS1       0.38      0.26      0.31        23
+         CD8       0.31      0.42      0.36        19
+  Macrophage       0.44      0.42      0.43        19
+
+    accuracy                           0.36        81
+   macro avg       0.37      0.36      0.36        81
+weighted avg       0.37      0.36      0.36        81
+
+
+============================================================
+Full Colour (Understained) | n = 25004
+============================================================
+DenseNet121 — Test Accuracy: 0.640  |  MCC: 0.520
+============================================================
+LR: 0.000019
+Best val acc: 0.6339
+Total epochs: 18
+Best checkpoint: ~12-13 epochs
+
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              734              109               27              123
+Truth DCIS1                  78              930               32               95
+Truth CD8                    60               75              626              193
+Truth Macrophage              148              125              385              287
+
+Per-class accuracy:
+  Invasive: 0.739
+  DCIS1: 0.819
+  CD8: 0.656
+  Macrophage: 0.304
+              precision    recall  f1-score   support
+
+    Invasive       0.72      0.74      0.73       993
+       DCIS1       0.75      0.82      0.78      1135
+         CD8       0.59      0.66      0.62       954
+  Macrophage       0.41      0.30      0.35       945
+
+    accuracy                           0.64      4027
+   macro avg       0.62      0.63      0.62      4027
+weighted avg       0.62      0.64      0.63      4027
+
+
+============================================================
+Full Colour (Understained) | n = 18000
+============================================================
+EfficientNet-B0 — Test Accuracy: 0.635  |  MCC: 0.516
+============================================================
+LR: 0.000089
+Best val acc: 0.6716
+Total epochs: 14
+Best checkpoint: ~4-5 epochs
+
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              461              162               16               69
+Truth DCIS1                   7              759                4               45
+Truth CD8                    35               95              380              186
+Truth Macrophage               77              155              208              239
+
+Per-class accuracy:
+  Invasive: 0.651
+  DCIS1: 0.931
+  CD8: 0.546
+  Macrophage: 0.352
+              precision    recall  f1-score   support
+
+    Invasive       0.79      0.65      0.72       708
+       DCIS1       0.65      0.93      0.76       815
+         CD8       0.62      0.55      0.58       696
+  Macrophage       0.44      0.35      0.39       679
+
+    accuracy                           0.63      2898
+   macro avg       0.63      0.62      0.61      2898
+weighted avg       0.63      0.63      0.62      2898
+
+
+============================================================
+Full Colour (Understained) | n = 12500
+============================================================
+DenseNet121 — Test Accuracy: 0.627  |  MCC: 0.504
+============================================================
+LR: 0.000060
+Best val acc: 0.6310
+Total epochs: 10
+Best checkpoint: ~4 epochs
+
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              393               48               16               35
+Truth DCIS1                  53              445                6               62
+Truth CD8                    41               44              283              115
+Truth Macrophage               94               54              182              142
+
+Per-class accuracy:
+  Invasive: 0.799
+  DCIS1: 0.786
+  CD8: 0.586
+  Macrophage: 0.301
+              precision    recall  f1-score   support
+
+    Invasive       0.68      0.80      0.73       492
+       DCIS1       0.75      0.79      0.77       566
+         CD8       0.58      0.59      0.58       483
+  Macrophage       0.40      0.30      0.34       472
+
+    accuracy                           0.63      2013
+   macro avg       0.60      0.62      0.61      2013
+weighted avg       0.61      0.63      0.62      2013
+
+
+============================================================
+Full Colour (Understained) | n = 7500
+============================================================
+EfficientNet-B0 — Test Accuracy: 0.628  |  MCC: 0.505
+============================================================
+LR: 0.000107
+Best val acc: 0.6764
+Total epochs: 18
+Best checkpoint: ~9-10 epochs
+
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              198               60                8               29
+Truth DCIS1                  14              299                3               24
+Truth CD8                    17               40              159               74
+Truth Macrophage               33               52               95              103
+
+Per-class accuracy:
+  Invasive: 0.671
+  DCIS1: 0.879
+  CD8: 0.548
+  Macrophage: 0.364
+              precision    recall  f1-score   support
+
+    Invasive       0.76      0.67      0.71       295
+       DCIS1       0.66      0.88      0.76       340
+         CD8       0.60      0.55      0.57       290
+  Macrophage       0.45      0.36      0.40       283
+
+    accuracy                           0.63      1208
+   macro avg       0.62      0.62      0.61      1208
+weighted avg       0.62      0.63      0.62      1208
+
+
+============================================================
+Full Colour (Understained) | n = 2500
+============================================================
+DenseNet121 — Test Accuracy: 0.565  |  MCC: 0.419
+============================================================
+LR: 0.000047
+Best val acc: 0.6594
+Total epochs: 30
+Best checkpoint: ~10-12 epochs
+
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive               65               14                5               14
+Truth DCIS1                  17               89                2                5
+Truth CD8                     6               13               49               29
+Truth Macrophage               22               24               24               24
+
+Per-class accuracy:
+  Invasive: 0.663
+  DCIS1: 0.788
+  CD8: 0.505
+  Macrophage: 0.255
+              precision    recall  f1-score   support
+
+    Invasive       0.59      0.66      0.62        98
+       DCIS1       0.64      0.79      0.70       113
+         CD8       0.61      0.51      0.55        97
+  Macrophage       0.33      0.26      0.29        94
+
+    accuracy                           0.56       402
+   macro avg       0.54      0.55      0.54       402
+weighted avg       0.55      0.56      0.55       402
+
+
+============================================================
+Full Colour (Understained) | n = 500
+============================================================
+DenseNet121 — Test Accuracy: 0.469  |  MCC: 0.304
+============================================================
+LR: 0.000109
+Best val acc: 0.4110
+Total epochs: 30
+Best checkpoint: ~5-7 epochs
+
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive               11                4                0                5
+Truth DCIS1                  10                7                2                4
+Truth CD8                     3                1                7                8
+Truth Macrophage                2                2                2               13
+
+Per-class accuracy:
+  Invasive: 0.550
+  DCIS1: 0.304
+  CD8: 0.368
+  Macrophage: 0.684
+              precision    recall  f1-score   support
+
+    Invasive       0.42      0.55      0.48        20
+       DCIS1       0.50      0.30      0.38        23
+         CD8       0.64      0.37      0.47        19
+  Macrophage       0.43      0.68      0.53        19
+
+    accuracy                           0.47        81
+   macro avg       0.50      0.48      0.45        81
+weighted avg       0.50      0.47      0.45        81
+
+
+============================================================
+Low Resolution | n = 25004
+============================================================
+EfficientNet-B0 — Test Accuracy: 0.657  |  MCC: 0.543
+============================================================
+LR: 0.000055
+Best val acc: 0.6945
+Total epochs: 18
+Best checkpoint: ~6-7 epochs
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              744              122               30               97
+Truth DCIS1                  15             1030                8               82
+Truth CD8                    45              110              563              236
+Truth Macrophage              134              175              326              310
+
+Per-class accuracy:
+  Invasive: 0.749
+  DCIS1: 0.907
+  CD8: 0.590
+  Macrophage: 0.328
+              precision    recall  f1-score   support
+
+    Invasive       0.79      0.75      0.77       993
+       DCIS1       0.72      0.91      0.80      1135
+         CD8       0.61      0.59      0.60       954
+  Macrophage       0.43      0.33      0.37       945
+
+    accuracy                           0.66      4027
+   macro avg       0.64      0.64      0.64      4027
+weighted avg       0.64      0.66      0.64      4027
+
+
+============================================================
+Low Resolution | n = 18000
+============================================================
+EfficientNet-B0 — Test Accuracy: 0.653  |  MCC: 0.539
+============================================================
+LR: 0.000050
+Best val acc: 0.6909
+Total epochs: 19
+Best checkpoint: ~8-10 epochs
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              513              111               19               65
+Truth DCIS1                   8              762                2               43
+Truth CD8                    31               93              388              184
+Truth Macrophage               90              146              213              230
+
+Per-class accuracy:
+  Invasive: 0.725
+  DCIS1: 0.935
+  CD8: 0.557
+  Macrophage: 0.339
+              precision    recall  f1-score   support
+
+    Invasive       0.80      0.72      0.76       708
+       DCIS1       0.69      0.93      0.79       815
+         CD8       0.62      0.56      0.59       696
+  Macrophage       0.44      0.34      0.38       679
+
+    accuracy                           0.65      2898
+   macro avg       0.64      0.64      0.63      2898
+weighted avg       0.64      0.65      0.64      2898
+
+
+============================================================
+Low Resolution | n = 12500
+============================================================
+EfficientNet-B0 — Test Accuracy: 0.641  |  MCC: 0.523
+============================================================
+LR: 0.000043
+Best val acc: 0.6861
+Total epochs: 25
+Best checkpoint: ~8-10 epochs
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              346               87               16               43
+Truth DCIS1                   5              514                3               44
+Truth CD8                    20               70              276              117
+Truth Macrophage               58               90              169              155
+
+Per-class accuracy:
+  Invasive: 0.703
+  DCIS1: 0.908
+  CD8: 0.571
+  Macrophage: 0.328
+              precision    recall  f1-score   support
+
+    Invasive       0.81      0.70      0.75       492
+       DCIS1       0.68      0.91      0.77       566
+         CD8       0.59      0.57      0.58       483
+  Macrophage       0.43      0.33      0.37       472
+
+    accuracy                           0.64      2013
+   macro avg       0.63      0.63      0.62      2013
+weighted avg       0.63      0.64      0.63      2013
+
+
+============================================================
+Low Resolution | n = 7500
+============================================================
+EfficientNet-B0 — Test Accuracy: 0.631  |  MCC: 0.510
+============================================================
+LR: 0.000091
+Best val acc: 0.6927
+Total epochs: 14
+Best checkpoint: ~7-8 epochs
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              199               61               10               25
+Truth DCIS1                   7              307                2               24
+Truth CD8                    15               47              171               57
+Truth Macrophage               37               59              102               85
+
+Per-class accuracy:
+  Invasive: 0.675
+  DCIS1: 0.903
+  CD8: 0.590
+  Macrophage: 0.300
+              precision    recall  f1-score   support
+
+    Invasive       0.77      0.67      0.72       295
+       DCIS1       0.65      0.90      0.75       340
+         CD8       0.60      0.59      0.59       290
+  Macrophage       0.45      0.30      0.36       283
+
+    accuracy                           0.63      1208
+   macro avg       0.62      0.62      0.61      1208
+weighted avg       0.62      0.63      0.61      1208
+
+
+============================================================
+Low Resolution | n = 2500
+============================================================
+ResNet18 — Test Accuracy: 0.572  |  MCC: 0.430
+============================================================
+LR: 0.004747
+Best val acc: 0.5341
+Total epochs: 27
+Best checkpoint: ~22-24 epochs
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive               44               31                6               17
+Truth DCIS1                   6               95                1               11
+Truth CD8                     3               15               60               19
+Truth Macrophage               19               18               26               31
+
+Per-class accuracy:
+  Invasive: 0.449
+  DCIS1: 0.841
+  CD8: 0.619
+  Macrophage: 0.330
+              precision    recall  f1-score   support
+
+    Invasive       0.61      0.45      0.52        98
+       DCIS1       0.60      0.84      0.70       113
+         CD8       0.65      0.62      0.63        97
+  Macrophage       0.40      0.33      0.36        94
+
+    accuracy                           0.57       402
+   macro avg       0.56      0.56      0.55       402
+weighted avg       0.57      0.57      0.56       402
+
+
+============================================================
+Low Resolution | n = 500
+============================================================
+SVM (HOG) — Test Accuracy: 0.284  |  MCC: 0.048
+============================================================
+Best params : C=1, gamma=0.1, kernel=rbf
+Best CV acc: 0.2890
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive                6                2                7                5
+Truth DCIS1                   9                6                4                4
+Truth CD8                     4                5                7                3
+Truth Macrophage                6                3                6                4
+
+Per-class accuracy:
+  Invasive: 0.300
+  DCIS1: 0.261
+  CD8: 0.368
+  Macrophage: 0.211
+              precision    recall  f1-score   support
+
+    Invasive       0.24      0.30      0.27        20
+       DCIS1       0.38      0.26      0.31        23
+         CD8       0.29      0.37      0.33        19
+  Macrophage       0.25      0.21      0.23        19
+
+    accuracy                           0.28        81
+   macro avg       0.29      0.28      0.28        81
+weighted avg       0.29      0.28      0.28        81
+
+
+============================================================
+Grayscale | n = 25004
+============================================================
+DenseNet121 — Test Accuracy: 0.625  |  MCC: 0.499
+============================================================
+LR: 0.000025
+Best val acc: 0.6637
+Total epochs: 16
+Best checkpoint: ~5-6 epochs
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              697              148               32              116
+Truth DCIS1                  81              976                9               69
+Truth CD8                    90               79              493              292
+Truth Macrophage              165              152              278              350
+
+Per-class accuracy:
+  Invasive: 0.702
+  DCIS1: 0.860
+  CD8: 0.517
+  Macrophage: 0.370
+              precision    recall  f1-score   support
+
+    Invasive       0.67      0.70      0.69       993
+       DCIS1       0.72      0.86      0.78      1135
+         CD8       0.61      0.52      0.56       954
+  Macrophage       0.42      0.37      0.40       945
+
+    accuracy                           0.62      4027
+   macro avg       0.61      0.61      0.61      4027
+weighted avg       0.61      0.62      0.62      4027
+
+
+============================================================
+Grayscale | n = 18000
+============================================================
+ResNet18 — Test Accuracy: 0.525  |  MCC: 0.365
+============================================================
+LR: 0.004776
+Best val acc: 0.5712
+Total epochs: 17
+Best checkpoint: ~7-8 epochs
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              351              218               61               78
+Truth DCIS1                 145              579               13               78
+Truth CD8                    60               77              406              153
+Truth Macrophage              124               98              271              186
+
+Per-class accuracy:
+  Invasive: 0.496
+  DCIS1: 0.710
+  CD8: 0.583
+  Macrophage: 0.274
+              precision    recall  f1-score   support
+
+    Invasive       0.52      0.50      0.51       708
+       DCIS1       0.60      0.71      0.65       815
+         CD8       0.54      0.58      0.56       696
+  Macrophage       0.38      0.27      0.32       679
+
+    accuracy                           0.53      2898
+   macro avg       0.51      0.52      0.51      2898
+weighted avg       0.51      0.53      0.51      2898
+
+
+============================================================
+Grayscale | n = 12500
+============================================================
+DenseNet121 — Test Accuracy: 0.604  |  MCC: 0.479
+============================================================
+LR: 0.000088
+Best val acc: 0.6523
+Total epochs: 11
+Best checkpoint: ~6-7 epochs
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              310              124               32               26
+Truth DCIS1                  41              489               18               18
+Truth CD8                    31               63              328               61
+Truth Macrophage               63               99              221               89
+
+Per-class accuracy:
+  Invasive: 0.630
+  DCIS1: 0.864
+  CD8: 0.679
+  Macrophage: 0.189
+              precision    recall  f1-score   support
+
+    Invasive       0.70      0.63      0.66       492
+       DCIS1       0.63      0.86      0.73       566
+         CD8       0.55      0.68      0.61       483
+  Macrophage       0.46      0.19      0.27       472
+
+    accuracy                           0.60      2013
+   macro avg       0.58      0.59      0.57      2013
+weighted avg       0.59      0.60      0.57      2013
+
+
+============================================================
+Grayscale | n = 7500
+============================================================
+EfficientNet-B0 — Test Accuracy: 0.586  |  MCC: 0.451
+============================================================
+LR: 0.000112
+Best val acc: 0.6373
+Total epochs: 18
+Best checkpoint: ~9-10 epochs
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              176               87               11               21
+Truth DCIS1                  17              298                2               23
+Truth CD8                    22               47              166               55
+Truth Macrophage               39               70              106               68
+
+Per-class accuracy:
+  Invasive: 0.597
+  DCIS1: 0.876
+  CD8: 0.572
+  Macrophage: 0.240
+              precision    recall  f1-score   support
+
+    Invasive       0.69      0.60      0.64       295
+       DCIS1       0.59      0.88      0.71       340
+         CD8       0.58      0.57      0.58       290
+  Macrophage       0.41      0.24      0.30       283
+
+    accuracy                           0.59      1208
+   macro avg       0.57      0.57      0.56      1208
+weighted avg       0.57      0.59      0.57      1208
+
+
+============================================================
+Grayscale | n = 2500
+============================================================
+DenseNet121 — Test Accuracy: 0.525  |  MCC: 0.372
+============================================================
+LR: 0.000052
+Best val acc: 0.5640
+Total epochs: 30
+Best checkpoint: ~18-20 epochs
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive               64                8               13               13
+Truth DCIS1                  36               61                4               12
+Truth CD8                     9                4               53               31
+Truth Macrophage               26                6               29               33
+
+Per-class accuracy:
+  Invasive: 0.653
+  DCIS1: 0.540
+  CD8: 0.546
+  Macrophage: 0.351
+              precision    recall  f1-score   support
+
+    Invasive       0.47      0.65      0.55        98
+       DCIS1       0.77      0.54      0.64       113
+         CD8       0.54      0.55      0.54        97
+  Macrophage       0.37      0.35      0.36        94
+
+    accuracy                           0.52       402
+   macro avg       0.54      0.52      0.52       402
+weighted avg       0.55      0.52      0.53       402
+
+
+============================================================
+Grayscale | n = 500
+============================================================
+SVM (HOG) — Test Accuracy: 0.333  |  MCC: 0.111
+============================================================
+Best params : C=10, gamma=0.1, kernel=rbf
+Best CV acc: 0.2890
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive                7                5                5                3
+Truth DCIS1                  11                6                4                2
+Truth CD8                     4                5                9                1
+Truth Macrophage                3                5                6                5
+
+Per-class accuracy:
+  Invasive: 0.350
+  DCIS1: 0.261
+  CD8: 0.474
+  Macrophage: 0.263
+              precision    recall  f1-score   support
+
+    Invasive       0.28      0.35      0.31        20
+       DCIS1       0.29      0.26      0.27        23
+         CD8       0.38      0.47      0.42        19
+  Macrophage       0.45      0.26      0.33        19
+
+    accuracy                           0.33        81
+   macro avg       0.35      0.34      0.33        81
+weighted avg       0.34      0.33      0.33        81
+
+
+============================================================
+Noise | n = 25004
+============================================================
+DenseNet121 — Test Accuracy: 0.642  |  MCC: 0.523
+============================================================
+LR: 0.000040
+Best val acc: 0.6759
+Total epochs: 10
+Best checkpoint: ~5 epochs
+
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              753              129               30               81
+Truth DCIS1                  37              999               26               73
+Truth CD8                    68              101              584              201
+Truth Macrophage              170              159              368              248
+
+Per-class accuracy:
+  Invasive: 0.758
+  DCIS1: 0.880
+  CD8: 0.612
+  Macrophage: 0.262
+              precision    recall  f1-score   support
+
+    Invasive       0.73      0.76      0.75       993
+       DCIS1       0.72      0.88      0.79      1135
+         CD8       0.58      0.61      0.60       954
+  Macrophage       0.41      0.26      0.32       945
+
+    accuracy                           0.64      4027
+   macro avg       0.61      0.63      0.61      4027
+weighted avg       0.62      0.64      0.62      4027
+
+
+============================================================
+Noise | n = 18000
+============================================================
+EfficientNet-B0 — Test Accuracy: 0.654  |  MCC: 0.538
+============================================================
+LR: 0.000174
+Best val acc: 0.6799
+Total epochs: 12
+Best checkpoint: ~3-4 epochs
+
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              547               89                8               64
+Truth DCIS1                  16              723               11               65
+Truth CD8                    40               65              394              197
+Truth Macrophage              118               96              235              230
+
+Per-class accuracy:
+  Invasive: 0.773
+  DCIS1: 0.887
+  CD8: 0.566
+  Macrophage: 0.339
+              precision    recall  f1-score   support
+
+    Invasive       0.76      0.77      0.77       708
+       DCIS1       0.74      0.89      0.81       815
+         CD8       0.61      0.57      0.59       696
+  Macrophage       0.41      0.34      0.37       679
+
+    accuracy                           0.65      2898
+   macro avg       0.63      0.64      0.63      2898
+weighted avg       0.64      0.65      0.64      2898
+
+
+============================================================
+Noise | n = 12500
+============================================================
+EfficientNet-B0 — Test Accuracy: 0.634  |  MCC: 0.512
+============================================================
+LR: 0.000065
+Best val acc: 0.6883
+Total epochs: 14
+Best checkpoint: ~7-8 epochs
+
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              356               76               24               36
+Truth DCIS1                  20              494                4               48
+Truth CD8                    22               62              280              119
+Truth Macrophage               60               87              179              146
+
+Per-class accuracy:
+  Invasive: 0.724
+  DCIS1: 0.873
+  CD8: 0.580
+  Macrophage: 0.309
+              precision    recall  f1-score   support
+
+    Invasive       0.78      0.72      0.75       492
+       DCIS1       0.69      0.87      0.77       566
+         CD8       0.57      0.58      0.58       483
+  Macrophage       0.42      0.31      0.36       472
+
+    accuracy                           0.63      2013
+   macro avg       0.61      0.62      0.61      2013
+weighted avg       0.62      0.63      0.62      2013
+
+
+============================================================
+Noise | n = 7500
+============================================================
+EfficientNet-B0 — Test Accuracy: 0.636  |  MCC: 0.516
+============================================================
+LR: 0.000222
+Best val acc: 0.6800
+Total epochs: 11
+Best checkpoint: ~6-7 epochs
+
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive              212               41               13               29
+Truth DCIS1                   8              300               10               22
+Truth CD8                    16               37              185               52
+Truth Macrophage               38               46              128               71
+
+Per-class accuracy:
+  Invasive: 0.719
+  DCIS1: 0.882
+  CD8: 0.638
+  Macrophage: 0.251
+              precision    recall  f1-score   support
+
+    Invasive       0.77      0.72      0.75       295
+       DCIS1       0.71      0.88      0.79       340
+         CD8       0.55      0.64      0.59       290
+  Macrophage       0.41      0.25      0.31       283
+
+    accuracy                           0.64      1208
+   macro avg       0.61      0.62      0.61      1208
+weighted avg       0.62      0.64      0.62      1208
+
+
+============================================================
+Noise | n = 2500
+============================================================
+DenseNet121 — Test Accuracy: 0.600  |  MCC: 0.466
+============================================================
+LR: 0.000042
+Best val acc: 0.6431
+Total epochs: 25
+Best checkpoint: ~14-16 epochs
+
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive               51               21               12               14
+Truth DCIS1                   6               95                6                6
+Truth CD8                     3                9               63               22
+Truth Macrophage               18               19               25               32
+
+Per-class accuracy:
+  Invasive: 0.520
+  DCIS1: 0.841
+  CD8: 0.649
+  Macrophage: 0.340
+              precision    recall  f1-score   support
+
+    Invasive       0.65      0.52      0.58        98
+       DCIS1       0.66      0.84      0.74       113
+         CD8       0.59      0.65      0.62        97
+  Macrophage       0.43      0.34      0.38        94
+
+    accuracy                           0.60       402
+   macro avg       0.59      0.59      0.58       402
+weighted avg       0.59      0.60      0.59       402
+
+
+============================================================
+Noise | n = 500
+============================================================
+DenseNet121 — Test Accuracy: 0.469  |  MCC: 0.314
+============================================================
+LR: 0.000133
+Best val acc: 0.5616
+Total epochs: 30
+Best checkpoint: ~18-20 epochs
+
+
+Confusion Matrix (rows=truth, cols=pred):
+                Pred   Invasive  Pred      DCIS1  Pred        CD8  Pred Macrophage
+Truth Invasive               14                2                1                3
+Truth DCIS1                  14                4                3                2
+Truth CD8                     3                1               11                4
+Truth Macrophage                5                0                5                9
+
+Per-class accuracy:
+  Invasive: 0.700
+  DCIS1: 0.174
+  CD8: 0.579
+  Macrophage: 0.474
+              precision    recall  f1-score   support
+
+    Invasive       0.39      0.70      0.50        20
+       DCIS1       0.57      0.17      0.27        23
+         CD8       0.55      0.58      0.56        19
+  Macrophage       0.50      0.47      0.49        19
+
+    accuracy                           0.47        81
+   macro avg       0.50      0.48      0.45        81
+weighted avg       0.50      0.47      0.45        81
+
+
