@@ -100,6 +100,10 @@ _FILE_MODEL_TO_APP: dict[str, str] = {
 _APP_DIR = Path(__file__).resolve().parent
 _FILENAME_RE = re.compile(r"^(.+)-(\d+)-(.+)$")
 
+import os
+print("APP_DIR:", _APP_DIR)
+print("Contents:", list(_APP_DIR.iterdir()))
+print("ShinyAppData dir:", _shiny_app_data_dir())
 
 def _shiny_app_data_dir() -> Path | None:
     """Resolve ShinyAppData folder (supports dated zip extract names)."""
