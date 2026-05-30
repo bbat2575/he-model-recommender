@@ -709,10 +709,20 @@ if active == "Overview":
     st.subheader("Classification Task")
     st.markdown(
         "Four classes: **Invasive tumor**, **DCIS 1**, **CD8+ T cells**, and "
-        "**Macrophage 1**. The source collection was larger; these four were retained "
+        "**Macrophages 1**. The source collection was larger; these four were retained "
         "for a manageable, biologically interpretable four-way task (see "
         "**Biological Context**). Class imbalance was addressed in training via "
-        "balancing / capped sampling where appropriate."
+        "class-balanced sampling where appropriate."
+    )
+    
+    st.subheader("Training Details")
+    st.markdown(
+        "Hyperparameters were tuned with Optuna (median pruner, 10 trials per model) "
+        "optimising learning rate on a log scale against validation accuracy. Final training used early "
+        "stopping with patience 5 and a minimum improvement threshold of 1e-4 over a maximum of 30 epochs, "
+        "with best-weight restoration on completion. Light augmentation was applied to improve model "
+        "generalisation and robustness, comprising random horizontal and vertical flips (p=0.5) and colour "
+        "jitter (brightness, contrast, saturation ±0.2; hue ±0.05)."
     )
 
 elif active == "Image Quality Simulator":
@@ -909,7 +919,7 @@ Cytotoxic T lymphocytes associated with anti-tumor activity and favourable progn
 in many breast cancer settings. Patches tend to show smaller, more dispersed
 lymphoid cells compared with dense tumor regions.
 
-**Macrophage 1**  
+**Macrophages 1**  
 Tumor-associated macrophages are linked to pro-tumorigenic processes (e.g. angiogenesis,
 matrix remodelling, metastasis) and poorer outcomes in many studies. They can be
 visually confused with other immune or stromal patterns, consistent with
@@ -921,7 +931,7 @@ visually confused with other immune or stromal patterns, consistent with
     st.markdown(
         """
 Together, the four classes span **tumor progression** (DCIS 1 to Invasive) and
-**immune context** (CD8+ vs Macrophage 1) within the breast tumor microenvironment.
+**immune context** (CD8+ vs Macrophages 1) within the breast tumor microenvironment.
 They are biologically diverse yet still feasible for a single multi-class model,
 which supports the robustness questions this app addresses: how performance shifts
 under staining variants, resolution loss, noise, understained, and grayscale conversion
@@ -937,7 +947,7 @@ Approximate class counts in the **selected four-class** set (before subsampling 
     )
 
     class_dist_df = pd.DataFrame({
-        "Class": ["Invasive tumor", "DCIS 1", "CD8+ T cells", "Macrophage 1"],
+        "Class": ["Invasive tumor", "DCIS 1", "CD8+ T cells", "Macrophages 1"],
         "Approx. images": ["~34,000", "~10,000–13,000", "~7,000", "~10,000–13,000"],
     })
 
