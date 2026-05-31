@@ -21,4 +21,4 @@ The app will open automatically, or navigate to `http://localhost:8501` in your 
 - `precomputed.py` — Recommendation logic and data loading
 - `ShinyAppData-*/` — Model results, curves, and confusion matrices
 - `iqsim_assets/` — Image quality simulator assets
-- `requirements-streamlit.txt` — Python dependencies
+- `requirements.txt` — Python dependencies
