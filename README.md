@@ -9,7 +9,7 @@ Python 3.10+
 ## Setup
 
 ```bash
-pip install -r requirements-streamlit.txt
+pip install -r requirements.txt
 streamlit run app.py
 ```
 
